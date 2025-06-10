@@ -15,26 +15,26 @@ const handleClick = (item) => {
 
 <template>
     <header class=" bg-[#FCEED5]">
-        <div class="  sm:max-w-[1180px] m-auto 0 flex justify-between items-center py-[28px] ">
-     <img src="../assets/img/logo.svg" alt="logo" class="block mx-auto sm:mx-0" />
-            <ul class="hidden sm:flex sm:gap-[48px] text-[#003459] text-[16px] font-bold">
+        <div class="max-w-[414px]  xl:max-w-[1180px] mb:w-full mb:max-w-[768px]  xl:m-auto 0 sm:flex gap-[20px] justify-between items-center py-[28px] sm:px-[100px] ">
+     <img src="../assets/img/logo.svg" alt="logo" class="block mx-auto xl:mx-0  mb:relative left-[140px]" />
+            <ul class="hidden sm:flex gap-[48px] text-[#003459] text-[16px] font-bold">
                 <li>Home</li>
                 <li>Category</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
-            <div class="flex gap-[12px]">
-                <img src="../assets/img/Vector.svg" alt="" class="text-right relative right-[70px] top-[-8px] sm:left-[45px] w-[16px] h-[16x]">
+            <div class="hidden xl:flex gap-[12px] ">
+                <img src="../assets/img/Vector.svg" alt="" class="text-right relative right-[70px] top-[-8px] xl:left-[45px] xl:top-[2px] w-[16px] h-[16x]">
                 <input type="text" placeholder="Search something here!"
-                    class="hidden sm:flex w-[280px] h-[44px] rounded-[46px] bg-white pl-[50px]">
+                    class="hidden xl:flex w-[280px] h-[44px] rounded-[46px] bg-white pl-[50px]">
             </div>
-            <div class="hidden sm:flex">
+            <div class="hidden xl:flex">
                 <button class="w-[203px] h-[44px] bg-[#003459] text-white text-[16px]  font-bold rounded-[57px]">Join the
                     community</button>
-                <div class="flex gap-[6px]">
-                    <img src="../assets/img/Frame.svg" alt="Frame">
+                <div class="flex gap-[6px] mt-[10px] ml-[14px]">
+                    <img src="../assets/img/Frame.svg" alt="Frame" class="w-[21px] h-[21px]">
                     <p>VNG</p>
-                    <img src="../assets/img/Caret_Down.svg" alt="Caret_Down">
+                    <img src="../assets/img/Caret_Down.svg" alt="Caret_Down"  class="w-[24px] h-[24px]">
                 </div>
             </div>
         </div>

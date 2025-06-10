@@ -1,18 +1,18 @@
 <template>
     <section class="bg-[#FCEED5]">
-        <div class=" px-[16px] sm:max-w-[1180px] mx-auto sm:py-[80px] flex flex-col sm:justify-between items-center">
+        <div class="sm:max-w-[414px] px-4 sm:w-full mb:w-full mb:max-w-[768px]  xl:max-w-[1180px] xl:mx-auto  flex flex-col sm:flex-row items-center sm:px-[100px]">
 
-            <div class=" flex flex-col gap-[24px] sm:gap-[34px]">
-                <div class="flex flex-col text-left sm:gap-[4px] ">
-                    <h1 class="font-extrabold text-[40px] pr-[16px] text-[#002A48] sm:text-[60px]  ">
+            <div class=" flex flex-col gap-[24px] xl:gap-[34px]">
+                <div class="flex flex-col sm:text-left xl:gap-[4px]">
+                    <h1 class="font-extrabold text-[40px] pr-[16px] text-[#002A48] xl:text-[60px] sm:text-[40px] ">
                         One more friend
                     </h1>
-                    <h2 class="font-bold text-[28px]  text-[#002A48] leading-tight sm:text-[48px]">
+                    <h2 class="font-bold text-[28px]  text-[#002A48] leading-tight xl:text-[48px]">
                         Thousands more fun!
                     </h2>
                 </div>
 
-                <p class="text-[12px] text-[#242B33] font-medium text-left sm:text-[16px]">
+                <p class="text-[12px] text-[#242B33] font-medium text-left xl:text-[16px]">
                     Having a pet means you have more joy, a new friend, a happy <br />
                     person who will always be with you to have fun. We have 200+ <br />
                     different pets that can meet your needs!
@@ -30,7 +30,7 @@
                     </button>
                 </div>
             </div>
-            <img src="../assets/img/img-dog.svg" alt="img dog" class="pt-[25px]">
+            <img src="../assets/img/img-dog.svg" alt="img dog" class="xl:w-[414px] h-[386px]">
 
         </div>
 
