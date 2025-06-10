@@ -15,13 +15,13 @@ const handleClick = (item) => {
 
 <template>
     <header class=" bg-[#FCEED5]">
-        <div class="max-w-[414px]  xl:max-w-[1180px] mb:w-full mb:max-w-[768px]  xl:m-auto 0 sm:flex gap-[20px] justify-between items-center py-[28px] sm:px-[100px] ">
+        <div class="max-w-[414px] xl:max-w-[1180px] mb:w-full mb:max-w-[768px]  m-auto 0 sm:flex gap-[20px] justify-between items-center py-[28px] ">
      <img src="../assets/img/logo.svg" alt="logo" class="block mx-auto xl:mx-0  mb:relative left-[140px]" />
-            <ul class="hidden sm:flex gap-[48px] text-[#003459] text-[16px] font-bold">
+            <ul class="hidden xl:flex gap-[48px] text-[#003459] text-[16px] font-bold ">
                 <li>Home</li>
                 <li>Category</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li >About</li>
+                <li class="hidden xl:flex">Contact</li>
             </ul>
             <div class="hidden xl:flex gap-[12px] ">
                 <img src="../assets/img/Vector.svg" alt="" class="text-right relative right-[70px] top-[-8px] xl:left-[45px] xl:top-[2px] w-[16px] h-[16x]">
@@ -38,12 +38,12 @@ const handleClick = (item) => {
                 </div>
             </div>
         </div>
-        <div class="relative top-[-70px] sm:hidden">
+        <div class="relative top-[-70px] xl:hidden  max-w-[414px] m-auto">
             <img
             src="../assets/img/Hamburger_MD.svg"
             alt="Hamburger_MD"
           @click="active = !active"
-          class="cursor-pointer w-8 h-8"
+          class="cursor-pointer w-8 h-8 ml-[30px]"
           />
           <div
           v-show="active"

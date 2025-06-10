@@ -1,9 +1,9 @@
 <template>
     <section class="bg-[#FCEED5]">
-        <div class="sm:max-w-[414px] px-4 sm:w-full mb:w-full mb:max-w-[768px]  xl:max-w-[1180px] xl:mx-auto  flex flex-col sm:flex-row items-center sm:px-[100px]">
+        <div class="sm:max-w-[414px] px-4 sm:w-full mb:w-full mb:max-w-[768px]  xl:max-w-[1180px] mx-auto  flex flex-col xl:flex-row items-center ">
 
             <div class=" flex flex-col gap-[24px] xl:gap-[34px]">
-                <div class="flex flex-col sm:text-left xl:gap-[4px]">
+                <div class="flex flex-col xl:gap-[4px] ">
                     <h1 class="font-extrabold text-[40px] pr-[16px] text-[#002A48] xl:text-[60px] sm:text-[40px] ">
                         One more friend
                     </h1>
@@ -18,7 +18,7 @@
                     different pets that can meet your needs!
                 </p>
 
-                <div class="flex flex-row items-center  gap-[4px] sm:items-start sm:gap-[20px]">
+                <div class="flex  flex-row items-center  gap-[4px] sm:items-start sm:gap-[20px]">
                     <button
                         class=" w-[161px] sm:w-[161px] h-[48px] rounded-[57px] border-[1.5px] flex gap-[8px] justify-center items-center text-[16px] text-[#003459] font-medium">
                         View Intro
