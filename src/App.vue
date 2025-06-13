@@ -1,10 +1,15 @@
 <script setup>
-import HeroSection from './components/HeroSection.vue';
+import HeroSection from './components/HeroSection.vue'
 import Navbar from './components/Navbar.vue'
+import NewDogs from './components/NewDogs.vue'
+import SectionInfo from './components/SectionInfo.vue'
+
 </script>
 
 <template>
  <Navbar />
  <HeroSection />
+ <NewDogs />
+ <SectionInfo />
 </template>
 
