@@ -80,8 +80,8 @@ const dogs = ref([
 
 <template>
     <section class="bg-white">
-        <div class="max-w-[414px] xl:max-w-[1180px]  m-auto  justify-between items-center">
-            <div class="flex xl:justify-between items-center">
+        <div class="max-w-[414px] xl:max-w-[1180px]  m-auto  justify-between px-[16px] mt-[40px]">
+            <div class="flex xl:justify-between">
                 <div class="">
                     <p class="text-[14px] xl:text-[16px] font-medium ">Whats new?</p>
                     <h1 class="text-[20px] xl:text-[24px] font-bold text-[#003459] ">Take a look at some of our pets
@@ -94,16 +94,18 @@ const dogs = ref([
                 </ButtonLera>
             </div>
 
-            <div class="flex xl:gap-[20px] gap-[34px] flex-wrap xl:justify-start justify-center items-center">
-                <div class="w-[150px] h-[260px] xl:w-[280px] xl:h-[378px]  py-2 px-2 mt-[20px] bg-[#f7f3f3] rounded-[12px]"
-                    v-for="dog in dogs" :key="dog.id">
-                    <img :src="dog.img" :alt="dog.name" class="flex xl:w-[264px] xl:h-[264px] rounded-[12px]" />
-                    <p class="text-[12px] md:text-[14px] xl:text-[16px] font-bold pt-3">{{ dog.name }}</p>
-                    <p class="text-[10px] md:text-[12px] xl:text-[14px] text-accent-dog font-medium">{{ dog.gene }}
-                    </p>
-                    <p class="text-[10px] md:text-[12px] xl:text-[14px] text-accent-dog font-medium">{{ dog.age }}
-                    </p>
-                    <p class="text-[12px]  md:text-[14px] xl:text-[16px] font-bold">{{ dog.mony }}</p>
+            <div class="grid xl:grid-cols-4 gap-5  grid-cols-2">
+                <div class=" p-2 bg-[#FDFDFD] border border-gray-100 rounded-[12px]" v-for="dog in dogs" :key="dog.id">
+                    <img :src="dog.img" :alt="dog.name" class="w-full rounded-[12px]" />
+                    <div>
+                        <p class="text-[12px] md:text-[14px] xl:text-[16px] font-bold pt-3">{{ dog.name }}</p>
+                        <p class="text-[10px] md:text-[12px] xl:text-[14px] text-accent-dog font-medium">{{ dog.gene }}
+                        </p>
+                        <p class="text-[10px] md:text-[12px] xl:text-[14px] text-accent-dog font-medium">{{ dog.age }}
+                        </p>
+                        <p class="text-[12px]  md:text-[14px] xl:text-[16px] font-bold">{{ dog.mony }}</p>
+                    </div>
+
                 </div>
             </div>
         </div>
