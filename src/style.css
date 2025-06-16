@@ -5,3 +5,24 @@
     --color-accent2: #002A48;
     --color-accent-dog:#667479;
   }
+
+  @layer utilities {
+  .rotate--25_23 {
+    transform: rotate(25.23deg);
+  }
+   .rotate--56_47 {
+    transform: rotate(-56.47deg);
+  }
+     .rotate--9_35 {
+    transform: rotate(9.35deg);
+  }
+   .rotate--22_85{
+    transform: rotate(-22.85deg);
+   }
+   .rotation--43{
+    transform: rotate(43deg);
+   }
+   .rotation--20_79{
+    transform: rotate(20.79deg);
+   }
+}

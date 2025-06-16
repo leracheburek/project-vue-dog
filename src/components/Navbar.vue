@@ -14,9 +14,10 @@ const handleClick = (item) => {
 </script>
 
 <template>
-    <header class=" bg-[#FCEED5]">
-        <div class="max-w-[414px] xl:max-w-[1180px] m-auto ">
-            <div class="flex justify-between items-center py-7">
+    <header class=" bg-[#FCEED5] ">
+            <div class="bg-[#F7DBA7] w-[635px] h-[635px] rotate--25_23 rounded-[99px] absolute top-[-607px] left-[-143.33px] z-0 "></div>
+        <div class="max-w-[414px] xl:max-w-[1180px] m-auto relative z-10 ">
+            <div class="flex justify-between items-center py-7 ">
                 <img src="../assets/img/logo.svg" alt="logo" class="block mx-auto xl:mx-0 "/>
                 <ul class="hidden xl:flex gap-12 text-accent text-4 font-bold ">
                     <li>Home</li>

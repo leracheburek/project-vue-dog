@@ -79,16 +79,16 @@ const dogs = ref([
 </script>
 
 <template>
-    <section class="bg-white">
-        <div class="max-w-[414px] xl:max-w-[1180px]  m-auto  justify-between px-[16px] mt-[40px]">
-            <div class="flex xl:justify-between">
-                <div class="">
+    <section class="bg-white mt-[40px]">
+        <div class="max-w-[414px] xl:max-w-[1180px]  m-auto  justify-between flex-col-reverse">
+            <div class="flex xl:justify-between ">
+                <div class="mb-[28px]">
                     <p class="text-[14px] xl:text-[16px] font-medium ">Whats new?</p>
                     <h1 class="text-[20px] xl:text-[24px] font-bold text-[#003459] ">Take a look at some of our pets
                     </h1>
                 </div>
 
-                <ButtonLera type="border" class="hidden mb:flex">
+                <ButtonLera type="border" class="">
                     View more
                     <img src="../assets/img/arrow-right.svg" alt="arrow-right">
                 </ButtonLera>
