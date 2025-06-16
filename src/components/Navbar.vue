@@ -14,7 +14,7 @@ const handleClick = (item) => {
 </script>
 
 <template>
-    <header class=" bg-[#FCEED5] ">
+    <header class=" bg-[#FCEED5] relative overflow-hidden">
         <div
             class="bg-[#F7DBA7] w-[635px] h-[635px] rotate--25_23 rounded-[99px] absolute top-[-607px] left-[-143.33px] z-0 ">
         </div>
