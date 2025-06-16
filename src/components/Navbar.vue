@@ -15,10 +15,12 @@ const handleClick = (item) => {
 
 <template>
     <header class=" bg-[#FCEED5] ">
-            <div class="bg-[#F7DBA7] w-[635px] h-[635px] rotate--25_23 rounded-[99px] absolute top-[-607px] left-[-143.33px] z-0 "></div>
+        <div
+            class="bg-[#F7DBA7] w-[635px] h-[635px] rotate--25_23 rounded-[99px] absolute top-[-607px] left-[-143.33px] z-0 ">
+        </div>
         <div class="max-w-[414px] xl:max-w-[1180px] m-auto relative z-10 ">
             <div class="flex justify-between items-center py-7 ">
-                <img src="../assets/img/logo.svg" alt="logo" class="block mx-auto xl:mx-0 "/>
+                <img src="../assets/img/logo.svg" alt="logo" class="block mx-auto xl:mx-0 " />
                 <ul class="hidden xl:flex gap-12 text-accent text-4 font-bold ">
                     <li>Home</li>
                     <li>Category</li>
@@ -26,7 +28,7 @@ const handleClick = (item) => {
                     <li>Contact</li>
                 </ul>
                 <div class="xl:hidden absolute">
-                    <img src="../assets/img/Hamburger_MD.svg" alt="Hamburger_MD" @click="active = !active"/>
+                    <img src="../assets/img/Hamburger_MD.svg" alt="Hamburger_MD" @click="active = !active" />
                     <div v-show="active" class="absolute top-10 bg-[#FFF3D9]">
                         <div class="text-accent text-[16px] bg-white px-4 py-2 rounded " v-for="item in dropdowns"
                             :key="item" @click="handleClick(item)">

@@ -88,7 +88,7 @@ const dogs = ref([
                     </h1>
                 </div>
 
-                <ButtonLera type="border" class="">
+                <ButtonLera type="border" class="xl:flex hidden ">
                     View more
                     <img src="../assets/img/arrow-right.svg" alt="arrow-right">
                 </ButtonLera>
